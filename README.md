@@ -1,8 +1,6 @@
 Chatty App
 =====================
 
-A minimal and light dev environment for ReactJS.
-
 ### Project Description
 
 Many of the web applications that you use today have real-time functionality where the user does not have to reload the page in order to see updates. Major examples of these include Slack, Twitter and Facebook.
@@ -18,15 +16,27 @@ Contains an input field to change your name and an input field to send a message
 The client-side app communicates with a server via WebSockets for multi-user real-time updates
 No persistent database is involved; the focus is on the client-side experience
 
-### Static Files
-
-You can store static files like images, fonts, etc in the `build` folder.
-
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
 
 ## Final Product
 
-!["screenshot update page"]()
+## Behaviour
+
+Header will display the count of connected users
+
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/1.png?raw=true)
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/2.png?raw=true)
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/3.png?raw=true)
+
+When any connected user sends a chat message, all connected users receive and display the message
+When any connected user changes their name, all connected users are notified of the name change
+Notifications are styled differently from chat messages
+When the number of connected users changes, this count will be updated for all connected users
+
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/4.png?raw=true)
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/5.png?raw=true)
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/6.png?raw=true)
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/7.png?raw=true)
+
 
 ### Dependencies
 
