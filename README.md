@@ -9,12 +9,17 @@ My app, Chatty will allow users to communicate with each other without having to
 
 ### Functions
 
-Primarily a client-side SPA (single-page app) built with ReactJS
-Based on the HTML and CSS provided
-Contains a chat log displaying messages and notifications
-Contains an input field to change your name and an input field to send a message
-The client-side app communicates with a server via WebSockets for multi-user real-time updates
-No persistent database is involved; the focus is on the client-side experience
+Primarily a client-side SPA (single-page app) built with ReactJS:
+
+1. Based on the HTML and CSS provided.
+
+2. Contains a chat log displaying messages and notifications.
+
+3. Contains an input field to change your name and an input field to send a message.
+
+The client-side app communicates with a server via WebSockets for multi-user real-time updates.
+
+No persistent database is involved; the focus is on the client-side experience.
 
 
 ## Final Product
