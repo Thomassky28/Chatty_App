@@ -6,16 +6,19 @@ const MessageList = props => (
 
   <div className='messages'>
    { props.messages.map( (message, i) =>
-    <Message
-       key={i}
-       username={message.username}
-       content={message.content}
-       type={message.type}/>
+      <Message
 
-  )}
+        key={i}
+        username={message.username}
+        content={message.content}
+        type={message.type}/>
 
-</div>
-
-  )
+     )
+    }
+  </div>
+)
 
 export default MessageList;
+
+
+
