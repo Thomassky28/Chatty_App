@@ -13,7 +13,7 @@ class App extends Component {
         super(props);
         this.state = {
           loading: true,
-          currentUser: "Bob",
+          currentUser: "User",
           messages: [],
           number: 0
 
@@ -25,7 +25,7 @@ class App extends Component {
 
       const newMessage = {
                            type: "postNotification",
-                           content: `${this.state.currentUser} change their name to ${userName}`
+                           content: `${userName} online!`
                          }
 
       this.socket.send(JSON.stringify(newMessage));

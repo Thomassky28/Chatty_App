@@ -42,8 +42,12 @@ When the number of connected users changes, this count will be updated for all c
 
 !["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/4.png?raw=true)
 !["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/5.png?raw=true)
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/6.png?raw=true)
+!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/user-talk.gif)
 !["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/7.png?raw=true)
+
+* Order placement
+
+!["Demo page"](https://github.com/Thomassky28/jungle-rails/blob/master/build/1.gif)
 
 
 ### Dependencies
