@@ -26,10 +26,6 @@ No persistent database is involved; the focus is on the client-side experience.
 
 ## Behaviour
 
-* Header will display the count of connected users.
-
-* When the number of connected users changes, this count will be updated for all connected users.
-
 * When any connected users enter their names, all connected users are notified the users' online state.
 
 * When any connected user sends a chat message, all connected users receive and display the message.
@@ -37,6 +33,10 @@ No persistent database is involved; the focus is on the client-side experience.
 !["user-talk"](https://github.com/Thomassky28/Chatty_App/blob/master/build/user-talk.gif)
 
 !["communication"](https://github.com/Thomassky28/Chatty_App/blob/master/build/communication.gif)
+
+* Header will display the count of connected users.
+
+* When the number of connected users changes, this count will be updated for all connected users.
 
 !["Three-users-talking"](https://github.com/Thomassky28/Chatty_App/blob/master/build/Three-users-talking.gif)
 
