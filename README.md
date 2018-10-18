@@ -28,26 +28,18 @@ No persistent database is involved; the focus is on the client-side experience.
 
 * Header will display the count of connected users.
 
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/1.png?raw=true)
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/2.png?raw=true)
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/3.png?raw=true)
+* When the number of connected users changes, this count will be updated for all connected users.
+
+* When any connected users enter their names, all connected users are notified the users' online state.
 
 * When any connected user sends a chat message, all connected users receive and display the message.
 
-* When any connected user changes their name, all connected users are notified of the name change.
+!["user-talk"](https://github.com/Thomassky28/Chatty_App/blob/master/build/user-talk.gif)
 
-* Notifications are styled differently from chat messages.
+!["communication"](https://github.com/Thomassky28/Chatty_App/blob/master/build/communication.gif)
 
-* When the number of connected users changes, this count will be updated for all connected users.
+!["Three-users-talking"](https://github.com/Thomassky28/Chatty_App/blob/master/build/Three-users-talking.gif)
 
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/4.png?raw=true)
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/5.png?raw=true)
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/user-talk.gif)
-!["screenshot update page"](https://github.com/Thomassky28/Chatty_App/blob/master/build/7.png?raw=true)
-
-* Order placement
-
-!["Demo page"](https://github.com/Thomassky28/jungle-rails/blob/master/build/1.gif)
 
 
 ### Dependencies
