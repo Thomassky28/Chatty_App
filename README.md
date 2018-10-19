@@ -22,11 +22,11 @@ The client-side app communicates with a server via WebSockets for multi-user rea
 No persistent database is involved; the focus is on the client-side experience.
 
 
-## Final Product
+## Project Demo
 
 ## Behaviour
 
-* When any connected users enter their names, all connected users are notified the users' online state.
+* When any connected users stay online and enter their names, all other connected users will be notified.
 
 * When any connected user sends a chat message, all connected users receive and display the message.
 
