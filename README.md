@@ -9,23 +9,20 @@ My app, Chatty will allow users to communicate with each other without having to
 
 ### Functions
 
-Primarily a client-side SPA (single-page app) built with ReactJS:
+Primarily a client-side application built with ReactJS. 
+App communicates with a server via WebSockets for multi-user real-time updates.
 
-1. Based on the HTML and CSS provided.
+1. Contains a chat log displaying messages and notifications.
 
-2. Contains a chat log displaying messages and notifications.
+2. Contains an input field to change your name and an input field to send a message.
 
-3. Contains an input field to change your name and an input field to send a message.
 
-The client-side app communicates with a server via WebSockets for multi-user real-time updates.
-
-No persistent database is involved; the focus is on the client-side experience.
 
 ## Getting Started 
 1. Install all dependicies using the `npm install` command.
 2. Start the client-side server in root directory using `npm start` command.
 3. Start web server in "chatty-server" directory using `npm start` command.
-4. Open http://localhost:3000 in the browser as many as you want.
+4. Open http://localhost:3000 link in the browser as many as you want.
 
 ## Project Demo
 
