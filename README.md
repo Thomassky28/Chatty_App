@@ -21,16 +21,15 @@ App communicates with a server via WebSockets for multi-user real-time updates.
 ## Getting Started 
 1. Install all dependicies using the `npm install` command.
 2. Start the client-side server in root directory using `npm start` command.
-3. Start web server in "chatty-server" directory using `npm start` command.
-4. Open http://localhost:3000 link in the browser as many as you want.
+3. Start web server in "chatty-server" directory with `npm start` command.
+4. Open http://localhost:3000 page in the browser as many as you want.
 
 ## Project Demo
 
 ## Behaviour
 
 * When any connected users stay online and enter their names, all other connected users will be notified.
-
-* When any connected user sends a chat message, all connected users receive and display the message.
+  When any connected user sends a chat message, all connected users receive and display the message.
 
 !["user-talk"](https://github.com/Thomassky28/Chatty_App/blob/master/build/user-talk.gif)
 
@@ -40,8 +39,7 @@ App communicates with a server via WebSockets for multi-user real-time updates.
 
 
 * Header will display the count of connected users.
-
-* When the number of connected users changes, this count will be updated for all connected users.
+  When the number of connected users changes, this count will be updated for all connected users.
 
 !["Three-users-talking"](https://github.com/Thomassky28/Chatty_App/blob/master/build/Three-users-talking.gif)
 
