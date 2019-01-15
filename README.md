@@ -28,8 +28,8 @@ App communicates with a server via WebSockets for multi-user real-time updates.
 
 ## Behaviour
 
-* When any connected users stay online and enter their names, all other connected users will be notified.
-  When any connected user sends a chat message, all connected users receive and display the message.
+1. When any connected users stay online and enter their names, all other connected users will be notified.
+2. When any connected user sends a chat message, all connected users receive and display the message.
 
 !["user-talk"](https://github.com/Thomassky28/Chatty_App/blob/master/build/user-talk.gif)
 
@@ -38,8 +38,8 @@ App communicates with a server via WebSockets for multi-user real-time updates.
 
 
 
-* Header will display the count of connected users.
-  When the number of connected users changes, this count will be updated for all connected users.
+3. Header will display the count of connected users.
+# When the number of connected users changes, this count will be updated for all connected users.
 
 !["Three-users-talking"](https://github.com/Thomassky28/Chatty_App/blob/master/build/Three-users-talking.gif)
 
