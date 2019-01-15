@@ -21,6 +21,11 @@ The client-side app communicates with a server via WebSockets for multi-user rea
 
 No persistent database is involved; the focus is on the client-side experience.
 
+## Getting Started 
+1. Install all dependicies using the `npm install` command.
+2. Start the client-side server in root directory using `npm start` command.
+3. Start web server in "chatty-server" directory using `npm start` command.
+4. Open http://localhost:3000 in the browser as many as you want.
 
 ## Project Demo
 
