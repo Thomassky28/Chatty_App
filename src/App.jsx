@@ -18,6 +18,8 @@ class App extends Component {
           number: 0
 
         };
+        this.addName = this.addName.bind(this);
+        this.addContent = this.addContent.bind(this);
     }
 
 
@@ -41,9 +43,9 @@ class App extends Component {
     componentDidMount() {
       console.log("loading successfully")
 
-      setTimeout(() => {
-            this.setState({ loading: false });
-      }, 1000)
+      // setTimeout(() => {
+      //       this.setState({ loading: false });
+      // }, 1000)
 
 
       this.socket = new WebSocket("ws://localhost:3001");
@@ -57,7 +59,7 @@ class App extends Component {
       };
 
       this.socket.onmessage = (e) => {
-        console.log(e.data);
+        console.log('client', e.data);
         let parsed = JSON.parse(e.data);
         console.log(parsed);
         const oldMessages = this.state.messages;
@@ -87,9 +89,7 @@ class App extends Component {
     }
 
     render() {
-        if (this.state.loading) {
-            return <h1 > Loading... </h1>
-        } else {
+
             return (
                 <div>
                   <NavBar
@@ -107,7 +107,7 @@ class App extends Component {
                   />
                 </div>
             )
-        }
+
     }
 }
 

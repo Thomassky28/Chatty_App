@@ -3,10 +3,10 @@ import React from 'react';
 
 
 const Message = (props) => {
-  if (props.type === "postNotification") {
+  if (props.type === "incomingNotification") {
     return (
       <div className="notification">
-        <span className="notification-content">{ props.notification}</span>
+        <span className="notification-content">{ props.content}</span>
       </div>
     )
   } else {

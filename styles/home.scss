@@ -45,7 +45,18 @@ body {
       display: flex;
       padding: 5px;
     }
+    .notification {
+      display: flex;
+      padding: 5px;
+    }
+    .notification-content {
+      overflow: hidden;
+      margin: 5px;
+      padding: 0 180px;
+      flex: 8;
+      color: red;
 
+    }
     .message.system {
       font-style: italic;
       padding: 5px 20px;
