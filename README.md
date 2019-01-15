@@ -39,7 +39,7 @@ App communicates with a server via WebSockets for multi-user real-time updates.
 
 
 3. Header will display the count of connected users.
-# When the number of connected users changes, this count will be updated for all connected users.
+### When the number of connected users changes, this count will be updated for all connected users.
 
 !["Three-users-talking"](https://github.com/Thomassky28/Chatty_App/blob/master/build/Three-users-talking.gif)
 
